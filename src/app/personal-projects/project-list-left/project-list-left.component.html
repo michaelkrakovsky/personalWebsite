@@ -1,0 +1,9 @@
+<div class="row">
+  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+    <app-project-router 
+      class="projectListPadding"
+      *ngFor="let p of projects; let i = index"
+      [project]="p"
+      [index]="i"></app-project-router>
+  </div>
+</div>
