@@ -1,0 +1,25 @@
+h3 {
+    font-size: 2em;
+    padding-top: 10px;
+}
+
+p {
+    color: black;
+    padding-left: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+@media only screen and (min-width: 1200px) {
+    #navigateIntro {
+        padding-bottom: 100%;
+    }
+    p {
+        padding-bottom: 100%;
+    }
+}
+
+#navigateIntro:hover {
+    background: lightblue;
+}

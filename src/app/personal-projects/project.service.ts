@@ -27,7 +27,8 @@ export class ProjectService {
             ["TypeScript", 
             "CSS", 
             "Bootstrap", 
-            "HTML"], 
+            "HTML", 
+            "Angular"], 
             "A Website Illustrating My Talents, Interests, and Goals", 
             "The project was created to highlight my interest in website development and to bolster existing coding skills."
         )

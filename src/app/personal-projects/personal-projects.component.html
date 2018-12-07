@@ -1,9 +1,14 @@
-<div class="row">
-  <div class="col-md-5">
-    <app-project-list-left></app-project-list-left>
-  </div>
-  <div class="col-md-7">
-    <router-outlet></router-outlet>
-  </div>
+<div class="container">
+  <div class="row">
+      <div class="col-xs-3 col-lg-3 col-md-3">
+        <app-project-router
+          *ngFor="let p of projects; let i = index"
+          [project]="p"
+          [index]="i"></app-project-router>
+      </div>
+      <router-outlet></router-outlet>
+    </div>
 </div>
+
+
 

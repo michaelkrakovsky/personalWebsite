@@ -1,0 +1,17 @@
+<section id="services">
+    <div class="container">
+      <h3 class="text-center">If you wish to learn more about the contents of my resume, please explore the following links.</h3>
+      <br>
+      <div class="col-lg-6" id="fade" *ngFor="let xp of allXp; let i = index">
+        <a [routerLink]="['/experience', i]">
+          <div class="box" id="boxOne">
+            <h4>{{ xp.name }}</h4>
+            <p>{{ xp.shortDescription }}</p>
+          </div>
+        </a>
+      </div>
+      <div>
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </section>

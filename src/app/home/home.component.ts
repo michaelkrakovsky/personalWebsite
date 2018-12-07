@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { HomeLinksService } from './homeLinks.service';
+import { HomeLink } from './homeLink.model';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  homeLinks: HomeLink[];
+
+  constructor(private homeLinkService: HomeLinksService) { }
 
   ngOnInit() {
+    this.homeLinks = this.homeLinkService.getProjects()
   }
 
 }

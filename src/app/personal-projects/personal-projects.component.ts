@@ -9,5 +9,13 @@ import { Project } from './project.model';
   styleUrls: ['./personal-projects.component.css']
 })
 export class PersonalProjectsComponent {
+  projects: Project[];
 
+  constructor(private projectService: ProjectService, 
+              private router: Router, 
+              private route: ActivatedRoute) { }
+
+  ngOnInit() {
+    this.projects = this.projectService.getProjects();
+  }
 }

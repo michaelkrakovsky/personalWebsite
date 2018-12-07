@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { HomeLinksService } from '../home/homeLinks.service';
+import { HomeLink } from '../home/homeLink.model';
 
 @Component({
   selector: 'app-header',
@@ -6,4 +8,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
+
+  homeLinks: HomeLink[];
+
+  constructor(private homeLinksService: HomeLinksService) {}
+
+  ngOnInit() {
+    this.homeLinks = this.homeLinksService.getProjects()
+  }
 }
