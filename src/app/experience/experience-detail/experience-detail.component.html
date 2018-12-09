@@ -1,9 +1,9 @@
 <div class="container">
   <div class="row">
-    <h3>{{ this.xp.longDescription[0] }}</h3>
+    <h3>{{ this.xp.name }}</h3>
   </div>
-  <div class="row" *ngFor="let p of this.xp.longDescription; let i = index">
-    <p *ngIf="i != 0">{{ p }}</p>
+  <div class="row" *ngFor="let p of this.xp.longDescription;">
+    <p>{{ p }}</p>
   </div>
 </div>
 

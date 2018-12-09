@@ -1,7 +1,7 @@
 export class ExperienceTemplate {
-    private name: string;
-    private shortDescription: string;
-    private longDescription: string[];
+    name: string;
+    shortDescription: string;
+    longDescription: string[];
 
     constructor(name: string, shortDescription: string, longDescription: string[]) {
         this.name = name;

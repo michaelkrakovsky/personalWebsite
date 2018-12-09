@@ -7,7 +7,7 @@
 
 #fade:hover {
     transform: scale(0.95);
-    transition: 1s;
+    transition: 0.2s;
 }
 
 #fade h4 {

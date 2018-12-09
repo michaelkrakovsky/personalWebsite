@@ -11,7 +11,7 @@ import { ActivatedRoute, Params } from '@angular/router';
 })
 export class ExperienceDetailComponent implements OnInit {
 
-  private xp: ExperienceTemplate;
+  xp: ExperienceTemplate;
   private paramsSubscription: Subscription;
   private id: number;
 
