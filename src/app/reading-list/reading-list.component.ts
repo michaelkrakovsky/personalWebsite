@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Book } from './book.model';
+import { ReadingList } from './reading-list.service';
 
 @Component({
   selector: 'app-reading-list',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ReadingListComponent implements OnInit {
 
-  constructor() { }
+  readingList: Book[];
+
+  constructor(private readingListService: ReadingList) { }
 
   ngOnInit() {
+    this.readingList = this.readingListService.getReadingList();
   }
 
 }

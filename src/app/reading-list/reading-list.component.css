@@ -1,0 +1,23 @@
+.container {
+    margin-left: 0%;
+}
+
+#readingList ol { 
+    font-style:italic; 
+    font-family:Georgia, 
+    Times, serif; 
+    font-size:24px; 
+    color:maroon;
+    margin-left: 50%;  
+}
+#readingList ol li p { 
+    padding:8px; 
+    font-style:normal; 
+    font-family:Arial; 
+    font-size:13px; 
+    color: black;
+    border-left: 1px solid black; 
+}
+#readingList ol li p em { 
+    display:block; 
+}

@@ -16,10 +16,12 @@ export class ReadingList {
         new Book("The Modern Fundamentals of Golf", "Ben Hogan", 1957),
         new Book("Meditation: An In-Depth Guide", "Ian Gawler & Paul Bedson", 2010),
         new Book("The Bill James Historical Baseball Abstract", "Bill James", 2001),
-        new Book("The 48 Laws of Power", "Robert Greene", 1998)
+        new Book("The 48 Laws of Power", "Robert Greene", 1998), 
+        new Book("The Count of Monte Cristo", "Alexandre Dumas", 1845), 
+        new Book("The Prince", "Niccolò Machiavelli", 1532)
     ];
 
-    getProjects() {
+    getReadingList() {
         return this.readingList.slice();
     }
 

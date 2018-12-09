@@ -1,3 +1,12 @@
-<p>
-  reading-list works!
-</p>
+<div class="container" id="readingList">
+  <ol>
+    <div class="row" *ngFor="let book of readingList">
+      <li>
+        <p>
+          <em>{{ book.author }}</em>
+          {{ book.title }}, {{ book.date }}   
+        </p>
+      </li>
+    </div>
+  </ol>
+</div>
