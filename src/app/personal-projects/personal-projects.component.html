@@ -1,14 +1,20 @@
-<div class="container">
-  <div class="row">
-      <div class="col-xs-3 col-lg-3 col-md-3">
-        <app-project-router
-          *ngFor="let p of projects; let i = index"
-          [project]="p"
-          [index]="i"></app-project-router>
-      </div>
+<section id="services">
+  <div class="container">
+    <h3 class="text-center">If you wish to learn more about the projects I have completed, please use the following links.</h3>
+    <br>
+    <div id="fade" *ngFor="let proj of projects; let i = index">
+      <a [routerLink]="['/projects', i]">
+        <div class="box" id="boxOne">
+          <h4>{{ proj.name }}</h4>
+          <p>{{ proj.description }}</p>
+        </div>
+      </a>
+    </div>
+    <div>
       <router-outlet></router-outlet>
     </div>
-</div>
+  </div>
+</section>
 
 
 

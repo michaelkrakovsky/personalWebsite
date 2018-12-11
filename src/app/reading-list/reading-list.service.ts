@@ -12,7 +12,7 @@ export class ReadingList {
         new Book("How I Play Golf", "Tiger Woods", 2001),
         new Book("Golf is not a Game of Perfect", "Bob Rotella", 1995),
         new Book("1984", "George Orwell", 1949),
-        new Book("Lord of the Lies", "William Golding", 1954),
+        new Book("Lord of the Flies", "William Golding", 1954),
         new Book("The Modern Fundamentals of Golf", "Ben Hogan", 1957),
         new Book("Meditation: An In-Depth Guide", "Ian Gawler & Paul Bedson", 2010),
         new Book("The Bill James Historical Baseball Abstract", "Bill James", 2001),

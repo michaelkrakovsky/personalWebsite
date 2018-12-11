@@ -8,11 +8,6 @@ import { HomeComponent } from './home/home.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HttpModule } from '@angular/http';
 import { ProjectService } from './personal-projects/project.service';
-import { PredictingBaseballStrategyComponent } from './personal-projects/predicting-baseball-strategy/predicting-baseball-strategy.component';
-import { ProjectRouterComponent } from './personal-projects/project-router/project-router.component';
-import { IcoSuccessComponent } from './personal-projects/ico-success/ico-success.component';
-import { PersonalWebsiteComponent } from './personal-projects/personal-website/personal-website.component';
-import { DefaultProjectComponent } from './personal-projects/default-project/default-project.component';
 import { HomeLinksService } from './home/homeLinks.service';
 import { ResumeComponent } from './resume/resume.component';
 import { ExperienceComponent } from './experience/experience.component';
@@ -21,6 +16,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ExperienceService } from './experience/experience.service';
 import { ExperienceDetailComponent } from './experience/experience-detail/experience-detail.component';
 import { ReadingList } from './reading-list/reading-list.service';
+import { ProjectDetailsComponent } from './personal-projects/project-details/project-details.component';
 
 @NgModule({
   declarations: [
@@ -28,15 +24,11 @@ import { ReadingList } from './reading-list/reading-list.service';
     HeaderComponent,
     PersonalProjectsComponent,
     HomeComponent,
-    PredictingBaseballStrategyComponent,
-    ProjectRouterComponent,
-    IcoSuccessComponent,
-    PersonalWebsiteComponent,
-    DefaultProjectComponent,
     ResumeComponent,
     ExperienceComponent,
     ReadingListComponent,
-    ExperienceDetailComponent, 
+    ExperienceDetailComponent,
+    ProjectDetailsComponent, 
   ],
 
   imports: [

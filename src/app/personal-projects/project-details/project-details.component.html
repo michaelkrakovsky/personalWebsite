@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="row">
+    <h3>{{ this.project.name }}</h3>
+  </div>
+  <div class="row">
+    <h3>
+      <a [href]="gitLink">Github Link</a>
+    </h3>
+  </div>
+  <div class="row col-lg-12 col-md-12 col-sm-12" id="languages">
+    <h3>Languages:</h3>
+    <p class="col-lg-2 col-md-2 col-sm-2" *ngFor="let lan of this.project.languages">
+      <b>{{ lan }}</b>
+    </p>
+  </div>
+  <div class="container">
+    <p *ngFor="let p of this.project.abstract;">{{ p }}</p>
+  </div>
+  <img [src]="project.imageURL"
+    alt="Friendly Project Image"
+    >
+</div>

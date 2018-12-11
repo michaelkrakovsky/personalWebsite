@@ -12,8 +12,8 @@ export class PersonalProjectsComponent {
   projects: Project[];
 
   constructor(private projectService: ProjectService, 
-              private router: Router, 
-              private route: ActivatedRoute) { }
+              private activatedRoute: ActivatedRoute, 
+              private router: Router) { }
 
   ngOnInit() {
     this.projects = this.projectService.getProjects();
