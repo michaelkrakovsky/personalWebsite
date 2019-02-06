@@ -4,19 +4,20 @@
   </div>
   <div class="row">
     <h3>
-      <a [href]="gitLink">Github Link</a>
+      <a [href]="project.gitLink">Github Link</a>
     </h3>
   </div>
-  <div class="row col-lg-12 col-md-12 col-sm-12" id="languages">
     <h3>Languages:</h3>
+  <div class="row col-lg-12 col-md-12 col-sm-12" id="languages">
     <p class="col-lg-2 col-md-2 col-sm-2" *ngFor="let lan of this.project.languages">
       <b>{{ lan }}</b>
     </p>
   </div>
-  <div class="container">
+  <div class="row col-lg-12 col-md-12 col-sm-12">
     <p *ngFor="let p of this.project.abstract;">{{ p }}</p>
   </div>
-  <img [src]="project.imageURL"
-    alt="Friendly Project Image"
-    >
+  <div class="row col-lg-12 col-md-12 col-sm-12">
+    <img [src]="project.imageURL"
+    alt="Friendly Project Image">
+  </div>
 </div>

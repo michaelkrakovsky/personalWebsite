@@ -92,6 +92,21 @@ export class ProjectService {
             ], 
             "https://amp.businessinsider.com/images/51e956c4ecad04804c000011-750-375.jpg", 
             "https://github.com/michaelkrakovsky/personalWebsite"
+        ), 
+        new Project(
+            "IP Connectivity", 
+            ["Python", "BASH"], 
+            "An attempt to map the internet connection speeds of any major city picked by the user.", 
+            "The project was created during a QHacks Hackathon on February 2019.",
+            [
+                `The project was created in 36 hours during the 2019 Queen’s Hackathon. The project’s goal was to create 
+                a heat map detailing the connectivity of a city’s network. Once the data was collected, the data was 
+                mapped onto a heat map providing the reader with a friendly graphic of the best internet spots in 
+                the city. The program was automated from the time the user inputs the city name until the heatmap is 
+                written to memory. The data enables ISPs to tend to poorly affected areas and possibly steal competitors’ 
+                clients who provide poor service.`], 
+            "image_TwoD_Plot_Down.png",
+            "https://github.com/michaelkrakovsky/IP_Connectivity"
         )
     ];
 
