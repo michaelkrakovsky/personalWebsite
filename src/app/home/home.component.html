@@ -1,19 +1,17 @@
 <div class="container text-center">
-  <h1>Hello World!</h1>
-  <h2>Allow me to introduce myself, my name is Michael Krakovsky.</h2>
-  <h3>Please use the following links to discover more about me:</h3>
+  <h1>Hello World, I am Michael Krakovsky. Please explore the following links</h1>
 </div>
 <div class="row">
-  <div class="container text-center col-lg-3" id="navigateIntro" *ngFor="let l of homeLinks">
-    <a [routerLink]="[l.routingTag]">
+  <a *ngFor="let l of homeLinks" [routerLink]="[l.routingTag]">
+    <div class="container text-center col-lg-3" id="navigateIntro" >
       <h3>
         {{ l.name }}
       </h3>
       <p>
         {{ l.description }}
       </p>
-    </a>
-  </div>
+    </div>
+  </a>
   <router-outlet></router-outlet>
 </div>
   

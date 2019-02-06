@@ -13,12 +13,12 @@ a {
 }
 @media only screen and (min-width: 1200px) {
     #navigateIntro {
-        padding-bottom: 100%;
+        padding-bottom: 20%;
     }
     p {
-        padding-bottom: 100%;
+        padding-bottom: 20%;
     }
-}
+} 
 
 #navigateIntro:hover {
     background: lightblue;

@@ -1,4 +1,4 @@
-#services .box {
+.box {
     padding: 40px;
     margin-bottom: 40px;
     box-shadow: 10px 10px 15px rgba(73, 78, 92, 0.1);
@@ -16,7 +16,12 @@
 }
 
 #fade {
-    max-height: 192px;
+    min-height: 300px;
+    min-width: 200px;
+}
+
+#projectRow {
+    min-height: 300px
 }
 
 a {

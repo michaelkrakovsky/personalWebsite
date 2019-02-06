@@ -1,8 +1,8 @@
-<section id="services">
-  <div class="container">
-    <h3 class="text-center">If you wish to learn more about the projects I have completed, please use the following links.</h3>
-    <br>
-    <div id="fade" *ngFor="let proj of projects; let i = index">
+<div class="container">
+  <br>
+  <div id="projectRow" class="col-xs-12 col-lg-12 col-md-12 col-sm-12">
+    <div id="fade" class="col-xs-3 col-lg-3 col-md-3 col-sm-3" 
+        *ngFor="let proj of projects; let i = index">
       <a [routerLink]="['/projects', i]">
         <div class="box" id="boxOne">
           <h4>{{ proj.name }}</h4>
@@ -10,11 +10,11 @@
         </div>
       </a>
     </div>
-    <div>
-      <router-outlet></router-outlet>
-    </div>
   </div>
-</section>
+</div>
+<div id="bot" class="container">
+  <router-outlet></router-outlet>
+</div>
 
 
 
