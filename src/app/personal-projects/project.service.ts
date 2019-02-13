@@ -63,23 +63,8 @@ export class ProjectService {
             "A Website Illustrating My Talents, Interests, and Goals", 
             "The project was created to highlight my interest in website development and to bolster existing coding skills.", 
             [
-                `Programming my personal website was necessary to serve two purposes: applying knowledge and talent marketing. 
-                To build proficiency in web development, I began my journey by taking a University Web Development 
-                course. I found that the course only glazed over my interest in web development failing to satisfy 
-                my desire to deeply understand the construction of a website. To further my knowledge, I began to 
-                complete online courses and tutorials from Udemy, Lynda, and YouTube; however, the knowledge 
-                gained from completing these courses can only be demonstrated through application. Building my 
-                personal website allowed me to further develop my understanding in web development but also provided 
-                an opportunity to apply the skillset I recently obtained. `, 
-                `In addition, I wanted another means by which I can market myself. Although LinkedIn and University Portals can be 
-                effectively at exclaiming your desire to be hired, they fail to set you apart from the others that also use these 
-                platforms. Therefore, once I captured the attention of a recruiter, I can further establish a salient image in the 
-                recruiter’s mind by pointing them to my website. I effectively change the perception of the recruiter to my own 
-                skillset because the median in which he does the inspection will be of my creation. Consequently, the recruiter’s 
-                judgement will be laced with the idea that I must have obtained some degree of knowledge in website development. 
-                Such a phenomenon can be analogous to eating pizza in the USA and Italy. Although the pizza might be identical, 
-                the pizza in Italy will usually taste better than American pizza because the pizza’s taste is influenced by our 
-                perception of food within these destinations.`
+                `My personal website serves two purposes: applying knowledge and talent marketing. To build proficiency in web development, I began my journey by taking a University Web Development course. The course failed to satisfy my interest in web development because the it was outdated and rushed. Therefore, I began to complete online tutorials and to apply my knowledge by developing my own website.`, 
+                `Furthermore, I needed another way to garner attention from employers. Platforms like LinkedIn fail to differentiate yourself from others who use these platforms. However, through my own website, I can customize my own presentation and further establish a salient image amongst recruiters.` 
             ], 
             "https://amp.businessinsider.com/images/51e956c4ecad04804c000011-750-375.jpg", 
             "https://github.com/michaelkrakovsky/personalWebsite"
@@ -90,13 +75,9 @@ export class ProjectService {
             "An attempt to map the internet connection speeds of any major city picked by the user.", 
             "The project was created during a QHacks Hackathon on February 2019.",
             [
-                `The project was created in 36 hours during the 2019 Queen’s Hackathon. The project’s goal was to create 
-                a heat map detailing the connectivity of a city’s network. Once the data was collected, the data was 
-                mapped onto a heat map providing the reader with a friendly graphic of the best internet spots in 
-                the city. The program was automated from the time the user inputs the city name until the heatmap is 
-                written to memory. The data enables ISPs to tend to poorly affected areas and possibly steal competitors’ 
-                clients who provide poor service.`], 
-            "image_TwoD_Plot_Down.png",
+                `The project was created in 36 hours during the 2019 Queen’s Hackathon. The project’s goal was to create a heat map detailing the connectivity of a city’s network. Once the data was collected, the data was mapped onto a heat map providing the reader with a friendly graphic of the best internet spots in the city. The program was automated from the time the user inputs the city name until the heatmap is written to memory. The data enables ISPs to tend to poorly affected areas and possibly steal competitors’ clients who are provided with poor Internet service.`
+            ], 
+            "https://www.netscan.co/blog/assets/post-images/connectivity.png",
             "https://github.com/michaelkrakovsky/IP_Connectivity"
         ),
     ];

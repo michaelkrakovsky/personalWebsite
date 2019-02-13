@@ -6,36 +6,14 @@ export class ExperienceService {
     allExperience = [
         new ExperienceTemplate('Occupational', 'A comment about the soft skills I have gained during my young career.', 
             [
-                `My profession experience is categorized into three main roles: arbitrator, teacher and young professional. 
-                First, I was an arbitrator. Within this role, I maintained order by calling out intolerable actions. I glided 
-                across the surface directing young kids to their proper position and received backlash for my judgements. I was
-                a hockey referee. Although hockey referee was a modest position, I still learned invaluable lessons as a 16-year-old. 
-                Most notably, I learned how to be a competent and wise authoritarian. This entails making firm decisions tethered to 
-                reason and rule and not on the annoyance caused by loud coaches. The occupation also allowed me to communicate with 
-                older adults in a respectable but confident manner.`, 
-                `Then, I was a teacher. I have both indirectly saved lives and helped young children feel confident at their next pool party. 
-                I was a swimming instructor. My role was not only to acquire clients but to teach young children swimming fundamentals. 
-                Although the business itself was modest, the experience was fruitful. Not only did I develop the strong work ethic required 
-                to successfully run a business, but I also developed the patience to interact with children. Nothing will ever prepare you 
-                to deal with a screaming child until you have done so, thankfully, I can now handle (somewhat) screaming children.`,
-                `Now, I am a young professional. I started at RBC three years ago without the slightest conception about corporate culture. 
-                Here is where I put away the hockey skates and swim trunks to begin a new chapter in my life. Within my third year, 
-                I moved to corporate office to tackle different and more complex responsibilities. Although I parted ways from my friends, 
-                it was here where I had my first real mentor. She provided priceless opportunities while making distinctive efforts to 
-                expand my network; furthermore, her assistance is a driving force for why I desire to return to RBC within the upcoming years.`
+                "My profession experience is categorized into three main roles: arbitrator, teacher and young professional. First, I was an arbitrator. Within this role, I maintained order by calling out intolerable actions. I glided across the surface directing young kids to their proper position and received unjust backlash for my judgements. I was a hockey referee. I learned to conduct firm decisions tethered to reason and to be confident even after making an error. In addition, I gained the ability to communicate with older adults in a respectable manner.",
+                "Then, I was a teacher. I have both indirectly saved lives and helped young children feel confident at their next pool party. I was a swimming instructor. My role was not only to acquire clients but to teach young children swimming fundamentals. Not only did I develop the strong work ethic required to successfully run a business, but I also developed the patience to interact with children. Some young children took longer to teach than others; nonetheless, it was a glorious feeling when a child developed the confidence to swim into the deep end for the first time.",
+                "Now, I am a young professional. Here is where I put away the hockey skates and swim trunks to begin a new chapter in my life. Within my third year, I moved to corporate office to tackle different and more complex responsibilities. It was here where I had my first effectual mentor. She provided priceless opportunities while making distinctive efforts to expand my network; furthermore, her assistance is a driving force for why I desire to return to RBC within the upcoming years."
             ]),
         new ExperienceTemplate('Education', 'A note about the knowledge I have aquired from university.', 
             [
-                `Throughout the last four years of my Commerce education, I have become more mature, diligent, and astute. The Commerce 
-                program has taught me to thrive in highly competitive environments; however, I noticed a scarcity for talent with a 
-                business and technical background. Therefore, I choose to pursue a Computing Degree for one additional year at Queen’s University.`, 
-                `Both aspects of my education have contributed to my methodology of completing problems. Commerce has taught me to identify 
-                why an issue has occurred while Computing has taught me how the issue occurred. For instance, consider the simple issue of 
-                predicting churn in an organization. When I approach this problem, I begin to ask a series of questions which include: Why 
-                is this study important? How can we apply the derived knowledge? Is this worth the knowledge? What are the significant attributes 
-                that contribute to churn? Where was the dataset collected and who collected it? What methods can I use to optimally predict churn? 
-                The first questions illustrate the necessity for the study while the next three questions focus on the details of the question. 
-                With this approach, I can identify a problem but also provide a solution.`
+                "Throughout the last four years of my Commerce education, I have become more mature, diligent, and astute. The Commerce program has taught me to thrive in highly competitive environments; however, I noticed a scarcity for people with a business and technical background. Therefore, I choose to pursue a Computing Degree for one additional year at Queen’s University.", 
+                "Commerce has taught me the ought while Computing has taught me the what. For instance, consider the simple issue of predicting churn in an organization. When I approach this problem, I begin to ask a series of questions: Why is this study important? How can we apply the derived knowledge? Is the gained knowledge worth the expense? What are the significant attributes that contribute to churn? Where was the dataset collected and who collected it? What methods can I use to optimally predict churn? The first three questions dealing with the ‘ought’ illustrate the necessity for the study and my commerce side. The next three questions consider the details of the question and ‘what’ needs to be done to solve the problem. With this approach, I can identify a problem but also provide the details to a solution thus illustrating my computing side."
             ]),
         new ExperienceTemplate('Extra-Curricular', 'A snippet detailing my engagements with my peers.', 
             [
