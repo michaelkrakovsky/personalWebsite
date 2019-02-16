@@ -17,38 +17,13 @@ export class ExperienceService {
             ]),
         new ExperienceTemplate('Extra-Curricular', 'A snippet detailing my engagements with my peers.', 
             [
-                `There are two extra-curricular activities that served as impactful experiences: Queen’s Golf and Midget Hockey. 
-                First, Queen’s Golf was impactful to my development because it solidified my ability to become zealous in pursuit of a goal. 
-                Although I enjoy interacting with other members of the golf team, I discovered the most about myself during the preparation 
-                process and the try-out process. I have spent the previous three summers preparing to acquire the skills to play golf at a 
-                competitive level. Within the preparation process I learned to value the preparation process while noticing the existence of 
-                anxiety when thoughts about execution arise. In addition, the sport itself has taught one important lesson: the ability to 
-                control one’s emotions to thrive. For instance, the environmental conditions can be cold and rainy thus unsettling my mind; 
-                however, there is wisdom in knowing what cannot be controlled and applying your energy on what you can change.`,
-                `Second, hockey played an important part of my life as it provided me with the ability to interact with others in a team 
-                environment. Throughout my 14-year hockey career, I have played with players ranging everywhere from undisciplined to 
-                unsportsmanlike; however, it is still one’s responsibility to improve the player to get the most out of there talent. 
-                In fact, without an effort to help your teammate, you as a player will suffer. For example, one cannot be effective if 
-                your teammates are constantly in the penalty box while the team must handle the penalty kill. There are quantifiable 
-                costs when you fail to improve your own team members.`,  
+                "There are two impactful extra-curricular activities I incurred in the past two years: Queen’s Golf and QHacks.  First, Queen’s Golf provided a fruitful experience because it revealed my ability to achieve a challenging goal. Although I enjoy interacting with other members of the golf team, I discovered the most about myself during the preparation process. I have spent the previous three summers acquiring the skills to play golf at a competitive level. I learned to value the ‘grind’ and to handle adversity in a calm manner since I missed one entire season due to knee surgery.",
+                "QHacks, which is an annual Hackathon hosted by Queen’s University, was the most recent experience that indicated my progression towards my life goals. The event involved collaborating with three other team members to create minimal viable product all within 36-hours. I did not have a team, nor did I have an idea; however, these issues were solved early within the event. The event allowed me to flourish in an unknown setting and network with other terrific individuals.",  
             ]),
         new ExperienceTemplate('Craved Experience', 'An indication of where I want to move towards.', 
             [
-                `I am uncertain about where I desire to apply my zealous work habit. Since computing is an expanding field, the choices 
-                are abundant; however, new opportunities appear every year with the introduction of new technology. In addition, I would 
-                like to find a role that mingles both business and computing aspects because I have spent the past five years developing 
-                the tools to succeed within these areas. Having knowledge in both facets allows me to pivot between roles which facilitates 
-                both excitement and engagement.`,
-                `The computing streams that interest me include Cyber-Security and Blockchain. First, I desire to indulge in Security 
-                since the field will continue to expand as technology continues to integrate into every facet of our lives. Since these 
-                machines are typically connected to the network, they are exposed to attacks by malicious attackers. In addition, there 
-                is a lack of talent within the field which only intensify the current scarcity of security talent; however, I lack experience 
-                in the field and would love to expand my knowledge.`, 
-                `Second, the allure of Blockchain has always attracted my interest; however, the industry is a bit riskier than entering 
-                cyber-security because of the current uncertain in the industry’s future. Blockchain poses several interesting opportunities 
-                from streamlining supply chains to decentralizing monetary systems. Although Blockchain does interest me, I found it difficult 
-                to learn the appropriate technology because of the lack of quantity and quality. Nonetheless, if the opportunity presents itself 
-                to engage in an occupation involving Blockchain, I will surely engage with it.`
+                "I am uncertain about where I desire to apply my skills moving forward. Since computing is an expanding field, the choices are abundant; however, new opportunities appear every year with the introduction of new technology. In addition, I would like to find a role that integrates both my business and computing knowledge. Having knowledge in both facets allows me to pivot between roles which facilitates both excitement and engagement.",
+                "The main computing stream I find interesting is Cyber-Security. First, I desire to pursue a career in security since the field will continue to expand as technology continues to integrate into every facet of our lives. Since these machines are typically connected to the network, they are exposed to attacks by malicious attackers. There is currently a lack of talent within the field which only renders this career path more desirable. I would love to expand my knowledge in this field."
             ])
     ]
 

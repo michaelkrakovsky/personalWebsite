@@ -23,7 +23,8 @@ export class ReadingList {
         new Book("11/22/63", "Stephen King", 2011), 
         new Book("Capital in the Twenty-First Century", "Thomas Piketty", 2013), 
         new Book("Churchill and Orwell: The Fight for Freedom", "Thomas E. Ricks", 2017), 
-        new Book("12 Rules for Life: An Antidote to Chaos", "Jordan Peterson", 2018)
+        new Book("12 Rules for Life: An Antidote to Chaos", "Jordan Peterson", 2018), 
+        new Book("A Tale of Two Cities", "Charles Dickens", 1859)
     ];
 
     getReadingList() {
