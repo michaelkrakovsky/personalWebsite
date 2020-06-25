@@ -26,7 +26,12 @@ export class ReadingList {
         new Book("12 Rules for Life: An Antidote to Chaos", "Jordan Peterson", 2018), 
         new Book("A Tale of Two Cities", "Charles Dickens", 1859), 
         new Book("In the Realm of Hungry Ghosts", "Gabor Maté", 2009), 
-        new Book("Brave New World", "Aldous Huxley", 1932)
+        new Book("Brave New World", "Aldous Huxley", 1932),
+        new Book("Radical Candor", "Kim Scott", 2017),
+        new Book("Man and His Symbols", "C.G. Jung", 1968), 
+        new Book("For Whom the Bell Tolls", "Ernest Hemingway", 1940), 
+        new Book("An Outline of Psycho-Analysis", "Sigmund Freud", 1940), 
+        new Book("The Brothers Karamazov", "Fyodor Dostoevsky", 1880)
     ];
 
     getReadingList() {
