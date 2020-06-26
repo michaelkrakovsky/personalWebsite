@@ -31,7 +31,11 @@ export class ReadingList {
         new Book("Man and His Symbols", "C.G. Jung", 1968), 
         new Book("For Whom the Bell Tolls", "Ernest Hemingway", 1940), 
         new Book("An Outline of Psycho-Analysis", "Sigmund Freud", 1940), 
-        new Book("The Brothers Karamazov", "Fyodor Dostoevsky", 1880)
+        new Book("The Brothers Karamazov", "Fyodor Dostoevsky", 1880),
+        new Book("Ordinary Men: Reserve Police Battalion...", "Christoper Browning", 1992),
+        new Book("On the Genealogy of Morality", "Friedrich Nietzsche", 1887),
+        new Book("Meditations", "Marcus Aurelius", 161),
+        new Book("Notes from Underground", "Fyodor Dostoevsky", 1864)
     ];
 
     getReadingList() {
