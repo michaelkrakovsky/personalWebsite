@@ -1,5 +1,5 @@
 cd C:\Users\micha\Documents\GitHub\personalWebsite
-REM ng build
+call ng build
 REM cp dist\personalWebsite1\* ..\Personal_Website_Build
 REM cd C:\Users\micha\Documents\GitHub\Personal_Website_Build
 echo "HELLLO"
