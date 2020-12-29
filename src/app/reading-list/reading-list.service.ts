@@ -10,7 +10,6 @@ export class ReadingList {
         new Book("Adventures of Huckleberry Finn", "Mark Twain", 1884),
         new Book("Gulag: A History", "Anne Applebaum", 2001),
         new Book("How I Play Golf", "Tiger Woods", 2001),
-        new Book("Golf is not a Game of Perfect", "Bob Rotella", 1995),
         new Book("1984", "George Orwell", 1949),
         new Book("Lord of the Flies", "William Golding", 1954),
         new Book("The Modern Fundamentals of Golf", "Ben Hogan", 1957),
