@@ -2,8 +2,8 @@ version: 0.2
 env:
     variables:
         CACHE_CONTROL: "86400"
-        S3_BUCKET: {michael-krakovsky}
-        BUILD_FOLDER: {Personal_Website}
+        S3_BUCKET: michael-krakovsky
+        BUILD_FOLDER: Personal_Website
         BUILD_ENV: "test"
 phases:
     install:
