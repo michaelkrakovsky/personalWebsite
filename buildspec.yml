@@ -2,9 +2,9 @@ version: 0.2
 env:
     variables:
         CACHE_CONTROL: "86400"
-        S3_BUCKET: {-INSERT BUCKET NAME FOR STATIC WEBSITE HERE-}
-        BUILD_FOLDER: {-INSERT THE NAME OF THE BUILD FOLDER HERE-}
-        BUILD_ENV: "prod"
+        S3_BUCKET: {michael-krakovsky}
+        BUILD_FOLDER: {Personal_Website}
+        BUILD_ENV: "test"
 phases:
     install:
         commands:
