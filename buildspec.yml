@@ -6,11 +6,6 @@ env:
         BUILD_FOLDER: Personal_Website
         BUILD_ENV: "test"
 phases:
-    install:
-        commands:
-            - echo Installing source NPM dependencies...
-            - npm install
-            - npm install -g @angular/cli
     build:
         commands:
             - echo Build started on `date`
